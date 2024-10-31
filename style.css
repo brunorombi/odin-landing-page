@@ -85,3 +85,53 @@
     max-width: 100%;
     border-radius: 20px;
 }
+
+
+/* Main */
+/* information */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.information h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information .box-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+}
+
+.box-container .box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    gap: 12px;
+}
+
+
+.box-container .img-container {
+    height: 180px;
+    overflow: hidden;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-container h2{
+    font-size: 18px;
+}
