@@ -154,3 +154,42 @@
 .quote h2 {
     text-align: right;
 }
+
+/* Call to Action Section */
+
+.call-to-action {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action .container{
+    background-color: #3882f6;
+    width: 900px;
+    padding: 30px 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.cta-content h1 {
+    font-size: 18px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+.cta-content p {
+    color:#F9FAF8;
+    font-weight: 300;
+}
+
+.cta-button button {
+    background-color: #3882f6;
+    border: 1px solid #F9FAF8;
+    border-radius: 4px;
+    padding: 8px 24px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
